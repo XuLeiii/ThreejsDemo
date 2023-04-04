@@ -6,13 +6,13 @@
 <script>
 // eslint-disable-next-line no-unused-vars
 import { Gsapp, datagui, buffer, caizhi } from "../ultils/three.js";
-// import { island } from "../ultils/island.js"
+import { island } from "../ultils/island.js"
 // import {niubiCar} from "../ultils/NiubiCar.js"
 export default {
   name: "HelloWorld",
   mounted() {
     //01.动画库的使用
-    Gsapp()
+    // Gsapp()
 
     //02.datagui的使用
     // datagui()
@@ -24,7 +24,7 @@ export default {
     // caizhi();
 
     //05.马尔代夫小岛
-    // island()
+    island()
 
     //06.汽车展厅
     // niubiCar()
