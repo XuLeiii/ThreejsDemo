@@ -4,10 +4,15 @@
   </div>
 </template>
 <script>
+//1.测试小DEMO
+// import { Gsapp, datagui, buffer, caizhi } from "../ultils/three.js";
+//2.小岛场景
+// import { island } from "../ultils/island.js"
+// 3.森林，雨滴，PM2.5可视化
 // eslint-disable-next-line no-unused-vars
-import { Gsapp, datagui, buffer, caizhi } from "../ultils/three.js";
-import { island } from "../ultils/island.js"
-// import {niubiCar} from "../ultils/NiubiCar.js"
+import { chinaPM ,Forest,Rain} from "../ultils/SpriteExamples.js";
+import {niubiCar} from "../ultils/NiubiCar.js"
+// import { Robot } from "../ultils/Robot.js";
 export default {
   name: "HelloWorld",
   mounted() {
@@ -24,10 +29,22 @@ export default {
     // caizhi();
 
     //05.马尔代夫小岛
-    island()
+    // island()
 
     //06.汽车展厅
-    // niubiCar()
+    niubiCar()
+
+    //07.城市pm2.5
+    // chinaPM();
+
+    //08.森林案例
+    // Forest()
+
+    //09.下雨
+    // Rain()
+
+    //10.机器人
+    // Robot()
   },
 };
 </script>
