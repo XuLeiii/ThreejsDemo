@@ -89,6 +89,7 @@ function Robot() {
 
   const controls = new OrbitControls(camera, renderer.domElement);
   controls.enableDamping = true;
+  
   //是否开启相机的旋转功能
   // controls.enableRotate = false;
   function render() {
