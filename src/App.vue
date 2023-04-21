@@ -1,24 +1,24 @@
 <template>
   <div id="app">
-    <HelloWorld />
+    <!-- <HelloWorld /> -->
     <!-- <NiuBiCar /> -->
     <!-- <granaryStore /> -->
-    <!-- <smartCity /> -->
+    <smartCity />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+// import HelloWorld from "./components/HelloWorld.vue";
 // import NiuBiCar from "./components/NiuBiCar.vue";
 // import granaryStore from "./components/granaryStore";
-// import smartCity from "./components/smartCity.vue";
+import smartCity from "./components/smartCity.vue";
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    // HelloWorld,
     // NiuBiCar,
     // granaryStore,
-    // smartCity,
+    smartCity,
   },
   beforeCreate() {
     console.log("apppppppppp");
