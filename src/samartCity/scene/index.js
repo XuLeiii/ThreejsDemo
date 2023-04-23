@@ -7,8 +7,8 @@ const scene = new THREE.Scene();
 // const light = new THREE.PointLight(0xffffff, 0.5);
 // light.position.set(0, 700, 0);
 // scene.add(light);
-const amibient = new THREE.AmbientLight(0xffffff, 1);
-scene.add(amibient);
+// const amibient = new THREE.AmbientLight(0xffffff, 1);
+// scene.add(amibient);
 // 平行光1
 var directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
 directionalLight.position.set(200, 400, 300);
